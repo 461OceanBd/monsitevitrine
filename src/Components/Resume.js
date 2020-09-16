@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
 
+    const divStyle = {
+      color: "#f04f18",
+      fontWeight: "bold",
+    };
+
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
@@ -13,7 +18,8 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+            <p>{work.description} <br></br> <span style={divStyle}>{work.skills}</span></p>
+            
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
@@ -22,12 +28,14 @@ class Resume extends Component {
       })
     }
 
+
+
     return (
       <section id="resume">
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Formation</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -43,10 +51,10 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Expérience pro</span></h1>
          </div>
-
          <div className="nine columns main-col">
+           <p>Expérience professionnelle en lien direct avec le développement. Vous pouvez consulter mon CV pour avoir un détail des expériences passées</p>
           {work}
         </div>
     </div>

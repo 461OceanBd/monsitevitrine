@@ -33,30 +33,37 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"ENI École Informatique",
+        "degree":"Concepteur Développeur d'Applications (CDA)",
+        "graduated":"2019-2020",
+        "description":"Apprentissage des langages de programmation et frameworks, de l'architecture logicielle, de la conception, la conduite et gestion de projets à travers la réalisation de projets pratiques. Titre homologué par l'État, niveau II (Bac+4)."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Université de Nantes",
+        "degree":"Master Pro Expertise des Professions et des Institutions Culturelles (EPIC)",
+        "graduated":"2010-2012",
+        "description":"formation professionnelle destinée à préparer à des métiers d'expertise sociologique, d'audit et à former à la gestion de projets culturels."
+      },
+      {
+        "school":"Lycée A. et J. Renoir",
+        "degree":"Bac Scientifique spécialité Physique-Chimie",
+        "graduated":"2007",
+        "description": "Je le précise toujours car c'est ici que j'ai appris la rigueur de la science dure :-)"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Sogeti",
+        "title":"Consultant application",
+        "years":"Juin - Juillet 2020 (2 mois)",
+        "description":"Développemeny Back-end et Front-end d'une application d'assistant virtuel chargé d'accompagner le Scrum Master durant les daily meetings. Implémentation des Apis de reconnaissance vocale et faciale. Création et utilisation d'un broker MQTT permettant l'envoi et la réception de messages en temps réel entre le back et le front. Fonctionnement en méthode agile SCRUM avec attribution du rôle de Scrum Master tournant.",
+        "skills":"Java Spring Boot, React, NoSQL MongoDB, Docker, Drone CI, Git, Eclipse Mosquitto, API Rest, Architecture Orientée Services (SOA)"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ENI École Informatique",
+        "title":"Projets réalisés en formation",
+        "years":"Décembre 2019 - Février 2020",
+        "description":"Développement d'un site d'enchères sous Java EE et SQL Server : application web organisée en couches. Analyse, conception et développement d'un site d'organisation d'évènements d'entreprises avec PHP, Symfony et MySQL."
       }
     ],
     "skills":[
