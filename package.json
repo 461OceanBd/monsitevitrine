@@ -1,8 +1,8 @@
 {
-  "homepage": "https://461oceanbd.github.io/monsitevitrine/",
   "name": "monsitevitrine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://461oceanbd.github.io/monsitevitrine/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
