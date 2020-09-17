@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a92b39548da3fcef9661",
+    "revision": "16af471e8f6b6a66f320",
     "url": "/monsitevitrine/static/css/main.07318036.chunk.css"
   },
   {
-    "revision": "a92b39548da3fcef9661",
-    "url": "/monsitevitrine/static/js/main.72d712db.chunk.js"
+    "revision": "16af471e8f6b6a66f320",
+    "url": "/monsitevitrine/static/js/main.33942115.chunk.js"
   },
   {
     "revision": "2142b1b738eafb42e36a",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/monsitevitrine/static/js/2.1e304fd5.chunk.js"
   },
   {
-    "revision": "3ff1ccd9c6a84e28c59731226c1cfff7",
+    "revision": "7b4c7dbb56bc004797e04a4bbd6e6d01",
     "url": "/monsitevitrine/index.html"
   }
 ];
