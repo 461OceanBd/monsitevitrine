@@ -17,14 +17,14 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span></span></h1>
 
             </div>
 
             
 
             <div className="nine columns main-col">
-                  <h2>Contactez moi</h2>
+                  <h2>Contactez moi !</h2>
                   <br></br>
 
                   <p className="address">
