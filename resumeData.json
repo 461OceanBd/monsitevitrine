@@ -1,0 +1,112 @@
+{
+  "main": {
+    "image":"photo_profil.png",
+    "name":"Romain Mercier",
+    "occupation":"Développeur junior Back-end / Full-stack",
+    "description":"",
+    "bio":"Après quelques années à travailler dans le secteur musical, d'abord en gestion de projet culturel puis en tant que luthier, j'ai décidé de me diriger vers le secteur du Numérique. Avec le titre pro Concepteur Développeur d'Applications en poche, je m'apprête à entamer ma nouvelle vie professionnelle en tant que Développeur Back-end ou Full-stack.",
+    "contactmessage":"Vous avez une question ?",
+    "email": "romain.mercier321@gmail.com",
+    "phone": "06 73 23 24 26",
+    "address":{
+      "street":"",
+      "city":"Nantes",
+      "state":"",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/romain-mercier-a94692175/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/461OceanBd",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Voici un aperçu des compétences que j'ai pu acquérir pendant ma formation et lors des projets professionnels effectués. Actuellement, ma sensibilité et mes préocupations techniques tournent plus particulièrement autour de Java Spring pour le back-end et de React.js pour le front-end.",
+    "education":[
+      {
+        "school":"ENI École Informatique",
+        "degree":"Concepteur Développeur d'Applications (CDA)",
+        "graduated":"2019-2020",
+        "description":"Apprentissage des langages de programmation et frameworks, de l'architecture logicielle, de la conception, la conduite et gestion de projets à travers la réalisation de projets pratiques. Titre homologué par l'État, niveau II (Bac+4)."
+      },
+      {
+        "school":"Université de Nantes",
+        "degree":"Master Pro Expertise des Professions et des Institutions Culturelles (EPIC)",
+        "graduated":"2010-2012",
+        "description":"formation professionnelle destinée à préparer à des métiers d'expertise sociologique, d'audit et à former à la gestion de projets culturels."
+      },
+      {
+        "school":"Lycée A. et J. Renoir",
+        "degree":"Bac Scientifique spécialité Physique-Chimie",
+        "graduated":"2007",
+        "description": "Je le précise car c'est ici que j'ai appris la rigueur de la science dure :-)"
+      }
+    ],
+    "work":[
+      {
+        "company":"Sogeti",
+        "title":"Consultant application",
+        "years":"Juin - Juillet 2020 (2 mois)",
+        "description":"Développemeny Back-end et Front-end d'une application d'assistant virtuel chargé d'accompagner le Scrum Master durant les daily meetings. Implémentation des Apis de reconnaissance vocale et faciale. Création et utilisation d'un broker MQTT permettant l'envoi et la réception de messages en temps réel entre le back et le front. Fonctionnement en méthode agile SCRUM avec attribution du rôle de Scrum Master tournant.",
+        "skills":"Java Spring Boot, React, NoSQL MongoDB, Docker, Drone CI, Git, Eclipse Mosquitto, API Rest, Architecture Orientée Services (SOA)"
+      },
+      {
+        "company":"ENI École Informatique",
+        "title":"Projets réalisés en formation",
+        "years":"Décembre 2019 - Février 2020",
+        "description":"Développement d'un site d'enchères sous Java EE et SQL Server : application web organisée en couches. Analyse, conception et développement d'un site d'organisation d'évènements d'entreprises avec PHP, Symfony et MySQL."
+      }
+    ],
+    "skillss":{
+      "languages": "Java, Javascript, SQL, HTML5, CSS, PHP, C#.",
+      "frameworks": "Spring, ReactJs, Symfony, ASP.Net, Android SDK (Java), Ionic, Xamarin.",
+      "bdds": "MySQL, MongoDB (NoSQL), SQLServer.",
+      "cms": "WordPress",
+      "deployment": "Docker, Administration d'un serveur Apache sous Linux.",
+      "methods": "Développement et gestion de projet Agile (SCRUM), UML, Git."
+    }
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
