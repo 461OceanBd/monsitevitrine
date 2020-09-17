@@ -22,10 +22,12 @@ class Resume extends Component {
             
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+      var languages = this.props.data.skillss.languages;
+      var frameworks = this.props.data.skillss.frameworks;
+      var bdds = this.props.data.skillss.bdds;
+      var cms = this.props.data.skillss.cms;
+      var deployment = this.props.data.skillss.deployment;
+      var methods = this.props.data.skillss.methods;
     }
 
 
@@ -54,30 +56,42 @@ class Resume extends Component {
             <h1><span>Expérience pro</span></h1>
          </div>
          <div className="nine columns main-col">
-           <p>Expérience professionnelle en lien direct avec le développement. Vous pouvez consulter mon CV pour avoir un détail des expériences passées</p>
+           <p>Expérience professionnelle en lien direct avec le développement. Vous pouvez consulter mon CV pour avoir un détail des expériences passées.</p>
           {work}
         </div>
     </div>
 
 
+    <div className="row skill">
 
-      <div className="row skill">
+        <div className="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+        <div className="nine columns main-col">
+          <p>{skillmessage}  
+          </p>
+        </div>
 
-         <div className="nine columns main-col">
+        <div className="nine columns main-col">
+          <h3>Langages</h3>
+          <p className="info">{languages}</p>
 
-            <p>{skillmessage}
-            </p>
+          <h3>Frameworks</h3>
+          <p className="info">{frameworks}</p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+          <h3>Bases de données</h3>
+          <p className="info">{bdds}</p>
+
+          <h3>CMS</h3>
+          <p className="info">{cms}</p>
+
+          <h3>Déploiement</h3>
+          <p className="info">{deployment}</p>
+
+          <h3>Méthodes</h3>
+          <p className="info">{methods}</p>
+        </div>
       </div>
    </section>
     );

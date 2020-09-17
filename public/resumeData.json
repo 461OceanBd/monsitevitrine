@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Voici un aperçu des compétences que j'ai pu acquérir pendant ma formation et lors des projets professionnels effectués. Actuellement, ma sensibilité et mes préocupations techniques tournent plus particulièrement autour de Java Spring pour le back-end et de React.js pour le front-end.",
     "education":[
       {
         "school":"ENI École Informatique",
@@ -66,6 +66,15 @@
         "description":"Développement d'un site d'enchères sous Java EE et SQL Server : application web organisée en couches. Analyse, conception et développement d'un site d'organisation d'évènements d'entreprises avec PHP, Symfony et MySQL."
       }
     ],
+    "skillss":{
+      "languages": "Java, Javascript, SQL, HTML5, CSS, PHP, C#.",
+      "frameworks": "Spring, ReactJs, Symfony, ASP.Net, Android SDK (Java), Ionic, Xamarin.",
+      "bdds": "MySQL, MongoDB (NoSQL), SQLServer.",
+      "cms": "WordPress",
+      "deployment": "Docker, Administration d'un serveur Apache sous Linux.",
+      "methods": "Développement et gestion de projet Agile (SCRUM), UML, Git."
+    },
+
     "skills":[
       {
         "name":"Git",
