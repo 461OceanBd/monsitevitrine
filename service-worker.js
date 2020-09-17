@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/monsitevitrine/precache-manifest.cc8f3e102f37e37b0a8462febca065d4.js"
+  "/monsitevitrine/precache-manifest.12f909961f91e33c97de13bb365b3974.js"
 );
 
 workbox.clientsClaim();
