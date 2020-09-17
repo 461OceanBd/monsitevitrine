@@ -823,14 +823,20 @@ call-to-action .button {
    color: #ebeeee;
 }
 
+#contact h2 {
+   font: 24px/34px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   font: 16px/34px 'opensans-light', sans-serif;
+   padding-right: 0%;
 }
 #contact .header-col { padding-top: 6px; }
 

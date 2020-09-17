@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
 
     const divStyle = {
-      color: "#f04f18",
+      color: "#4f4d4d",
       fontWeight: "bold",
     };
 

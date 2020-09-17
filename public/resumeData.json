@@ -5,26 +5,26 @@
     "occupation":"Développeur junior Back-end / Full-stack",
     "description":"",
     "bio":"Après quelques années à travailler dans le secteur musical, d'abord en gestion de projet culturel puis en tant que luthier, j'ai décidé de me diriger vers le secteur du Numérique. Avec le titre pro Concepteur Développeur d'Applications en poche, je m'apprête à entamer ma nouvelle vie professionnelle en tant que Développeur Back-end ou Full-stack.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Vous avez une question ?",
     "email": "romain.mercier321@gmail.com",
     "phone": "06 73 23 24 26",
     "address":{
-      "street":"(Your Street)",
+      "street":"",
       "city":"Nantes",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "state":"",
+      "zip": ""
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "",
+    "resumedownload":"",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/romain-mercier-a94692175/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/461OceanBd",
         "className":"fa fa-github"
       }
     ]
@@ -73,38 +73,7 @@
       "cms": "WordPress",
       "deployment": "Docker, Administration d'un serveur Apache sous Linux.",
       "methods": "Développement et gestion de projet Agile (SCRUM), UML, Git."
-    },
-
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      }
-    ]
+    }
   },
   "portfolio":{
     "projects": [
@@ -137,18 +106,6 @@
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"smirkspace.jpg",
         "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
