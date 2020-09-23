@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PhoneNumber from 'react-phone-number';
 
 class Contact extends Component {
   render() {
@@ -29,7 +30,7 @@ class Contact extends Component {
 
                   <p className="address">
 						   {name}<br />
-						   {phone} <br />
+						   <PhoneNumber number={phone} isLinked={true} /> <br />
 						   {email}
 					   </p>
 
